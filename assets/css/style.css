@@ -1,0 +1,14 @@
+.background {
+	background-color: #05ab3f;
+	height: 600px;
+}
+
+.fighters {
+	padding: 20px;
+}
+
+img {
+	width: 80%;
+	border: 10px solid blue;
+	margin: 0 auto;
+}
