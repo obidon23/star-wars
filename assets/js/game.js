@@ -30,6 +30,6 @@ console.log(reySkywalker.name + " HP: " + reySkywalker.health);
 // 	status: "",
 // 	image: "../assets/images/darth-vader-empire-stries-back.jpg";
 // };	
-$("#rey").html(reySkywalker.name);
+$("#rey").html(reySkywalker.name + " HP: " + reySkywalker.health);
 
 
