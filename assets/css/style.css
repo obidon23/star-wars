@@ -8,8 +8,6 @@
 
 .fighters, .champion, .opponents, .defeated {
 	padding: 20px;
-	border: 4px solid black;
-
 }
 
 img {
@@ -25,3 +23,15 @@ img {
 	padding: 50px 135px;
 }
 
+.test {
+	width: 250px;
+	height: 100px;
+	background-color: blue;
+}
+
+p {
+	font-family: garamond, serif;
+	font-weight: bold;
+	color: #a04f3b;
+	font-size: 20px;
+}
