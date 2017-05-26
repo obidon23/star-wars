@@ -36,4 +36,4 @@ $("#rey").html(reySkywalker.name + " HP: " + reySkywalker.health);
 
 
 
-};
+});
