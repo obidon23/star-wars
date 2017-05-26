@@ -1,14 +1,27 @@
 .background {
-	background-color: #05ab3f;
+/*	background-image: url('../images/Petranaki_arena.jpg');
 	height: 600px;
+	background: 50% 50% no-repeat;*/
+	background-color: lightblue;
+	height: 700px;
 }
 
-.fighters {
+.fighters, .champion, .opponents, .defeated {
 	padding: 20px;
+	border: 4px solid black;
+
 }
 
 img {
-	width: 80%;
-	border: 10px solid blue;
+	border: 1px solid blue;
 	margin: 0 auto;
+	height: 100px;
+	width: 250px;
+	background: 50% 50% no-repeat;
 }
+
+.reset {
+
+	padding: 50px 135px;
+}
+
