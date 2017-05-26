@@ -1,3 +1,5 @@
+document.ready(function() {
+
 // var players  = ["reySkywalker", "obiwanKenobi", "darthMaul", "darthVader"];
 console.log("It's working");
 
@@ -33,3 +35,5 @@ console.log(reySkywalker.name + " HP: " + reySkywalker.health);
 $("#rey").html(reySkywalker.name + " HP: " + reySkywalker.health);
 
 
+
+};
