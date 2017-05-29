@@ -51,23 +51,24 @@ $("#obiwan").append($("<img>").attr("src", obiwanKenobi.image));
 });
 
 $("#rey").on("click", function() {
-	for (i=0; i < players; i++);
-		if (players[i].status !=== "champion") {
+	for (i=0; i < players; i++) {
+		if (players[i].status != "champion") {
 			reySkywalker.status = "champion";
 			$("#champion").html("<p>" + reySkywalker.name + " HP: " + reySkywalker.health + "</p>");
 
 		}
 
-		else if (players[i].status !=== "opponent1") {
+		else if (players[i].status != "opponent1") {
 			reySkywalker.status = "opponent1";
 			$("#opponents").html("<p>" + reySkywalker.name + " HP: " + reySkywalker.health + "</p>");
 		}
 
 
-		else if (players[i].status !=== "opponent2") {
+		else if (players[i].status != "opponent2") {
 			reySkywalker.status = "opponent2";
 			$("#opponents").html("<p>" + reySkywalker.name + " HP: " + reySkywalker.health + "</p>");
  		}
 
- 		reySkywalker.status = "opponent3"
- };
+ 		reySkywalker.status = "opponent3";
+ }
+});
