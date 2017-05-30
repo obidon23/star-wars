@@ -48,14 +48,15 @@ $("#vader").append($("<img>").attr("src", darthVader.image));
 
 $("#obiwan").html("<p>" + obiwanKenobi.name + " HP: " + obiwanKenobi.health + "</p>");
 $("#obiwan").append($("<img>").attr("src", obiwanKenobi.image));
-});
+
 
 $("#rey").on("click", function() {
-	for (i=0; i < players; i++) {
+	for (i=0; i < players.length; i++) {
 		if (players[i].status != "champion") {
 			reySkywalker.status = "champion";
 			$("#champion").html("<p>" + reySkywalker.name + " HP: " + reySkywalker.health + "</p>");
-
+			$("#rey").append($("<img>").attr("src", reySkywalker.image).attr("border", "2px solid green"));
+			console.log(reySkywalker.status);
 		}
 
 		else if (players[i].status != "opponent1") {
@@ -72,3 +73,30 @@ $("#rey").on("click", function() {
  		reySkywalker.status = "opponent3";
  }
 });
+
+$("#maul").on("click", function() {
+	for (i=0; i < players.length; i++) {
+		if (players[i].status != "champion") {
+			darthMaul.status = "champion";
+			$("#champion").html("<p>" + darthMaul.name + " HP: " + darthMaul.health + "</p>");
+			$("#rey").append($("<img>").attr("src", darthMaul.image).attr("border", "2px solid green"));
+			console.log(darthMaul.status);
+		}
+
+		else if (players[i].status != "opponent1") {
+			darthMaul.status = "opponent1";
+			$("#opponents").html("<p>" + darthMaul.name + " HP: " + darthMaul.health + "</p>");
+			console.log(darthMaul.status);
+		}
+
+
+		else if (players[i].status != "opponent2") {
+			darthMaul.status = "opponent2";
+			$("#opponents").html("<p>" + darthMaul.name + " HP: " + darthMaul.health + "</p>");
+			console.log(darthMaul.status);
+ 		}
+
+ 		darthMaul.status = "opponent3";
+ 		console.log(darthMaul.status);
+ }
+});});
