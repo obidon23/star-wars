@@ -1,7 +1,7 @@
 .main-section-title {
 	color: blue;
 	font-size: 24px;
-	font-family: 'Share Tech Mono', garamond, serif;
+	font-family: "Share Tech Mono", arial, sans-serif;
 }
 
 .section-title {
@@ -9,9 +9,24 @@
 	font-size: 24px;
 }
 
-img {
-	width: 250px;
-	height: 200px;
-
+.characters-section {
+	width: 100%;
+	display: block;
+}
+.character {
+	width: 200px;
+	height: 150px;
+	float: left;
+	display: inline-block;
+	border: 1px solid green;
+	background-color: #fff;
 }
 
+body {
+	background-color: lightblue;
+}
+
+img {
+	height: 100px;
+	margin: 0 auto;
+}

@@ -94,7 +94,7 @@ $("document").ready(function() {
 			renderOne(charObj[i], areaRender, "enemy");
 		}
 
-		$("document").on("click", ".enemy", function() {
+		$(document).on("click", ".enemy", function() {
 			var name = ($(this).attr("data-name"));
 			if ($("#defender").children().length === 0) {
 				renderCharacters(name, "#defender");
