@@ -1,36 +1,17 @@
-.background {
-/*	background-image: url('../images/Petranaki_arena.jpg');
-	height: 600px;
-	background: 50% 50% no-repeat;*/
-	background-color: lightblue;
-	height: 700px;
+.main-section-title {
+	color: blue;
+	font-size: 24px;
+	font-family: 'Share Tech Mono', garamond, serif;
 }
 
-.fighters, .champion, .opponents, .defeated {
-	padding: 20px;
+.section-title {
+	color: red;
+	font-size: 24px;
 }
 
 img {
-	margin: 0 auto;
-	height: 100px;
 	width: 250px;
-	background: 50% 50% no-repeat;
+	height: 200px;
+
 }
 
-.reset {
-
-	padding: 50px 135px;
-}
-
-.test {
-	width: 250px;
-	height: 100px;
-	background-color: blue;
-}
-
-p {
-	font-family: garamond, serif;
-	font-weight: bold;
-	color: #a04f3b;
-	font-size: 20px;
-}

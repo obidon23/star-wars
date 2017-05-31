@@ -1,109 +1,68 @@
-<!doctype html>
-
+<!DOCTYPE html>
 <html lang="en-us">
+	<meta charset="UTF-8">
+	<title>Star Wars Game</title>
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, user-scalable=yes">
-  <title>This is Sparta!</title>
-
-<!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-
-<!-- My Stylesheet -->
-<link rel="stylesheet" type="text/css" href="assets/css/style.css">
-
-<!-- My Script -->
-<script
-  src="https://code.jquery.com/jquery-3.2.1.js"
-  integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
-  crossorigin="anonymous"></script>
-
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-
-<script src="assets/js/game.js">
-</script>
-
+	<link href=“https://fonts.googleapis.com/css?family=Share+Tech+Mono” rel=“stylesheet” type=“text/css”>
+        <!-- CSS -->
+        <link rel="stylesheet" href="assets/css/style.css">
+        <!-- jQuery -->
+        <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.min.js">
+        </script>
+        <!-- Game Logic -->
+        <script type="text/javascript" src="assets/javascript/rpgStarWars.js">
+        </script>
 </head>
+
 <body>
- 
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col-lg-12 background">
-        <div class="row" id="fighters">
-          <h2 class="h2 h2-default">
-            Click on an image to pick your fighter and first opponent.
-          </h2>
-          <!-- Rey -->
-          <div class="col-lg-3 fighters" id="rey">
-           insert name
-          </div>
+	<div class="main-section-title">
+		 Star Wars is awesome
+	</div>
 
-          <!-- Darth Maul -->
-          <div class="col-lg-3 fighters" id="maul">
-          </div>
-          
-          <!-- Obi-Wan -->
-          <div class="col-lg-3 fighters" id="vader">
-          </div>
-          
-          <!-- Darth Vader -->
-          <div class="col-lg-3 fighters" id="obiwan">
-          </div>
-        </div>
+	<div id="main-game-section">
+		<div id="characters-section">
+			<div class="section-title">
+			Select your Character
+			</div>
+		</div>
+	
+		<div id="selected-character-section">
+			<div class="section-title">Your Character
+		</div>
+		
+			<div id="selected-character">
+			</div>
 
-        <div class="row">
-          <div class="col-lg-5 champion">
-            <h2 class="h2 h2-default">
-              Your Champion
-            </h2>
+			<div id="available-to-attack-section">
+				<div id="section-title">Enemies to Attack
+				</div>
+			</div>
 
-            
-          </div>
+			<div class="section-title"> Fight Section
+			</div>
 
-          <div class="col-lg-2 fightRound">
-            <button class="btn btn-danger">
-              Fight Round
-            </button>
-          </div>
+			<div id="fight-section">
+				<button id="attack-button">Attack</button>
+			</div>
 
-          <div class="col-lg-5 opponents">
-            <h2 class="h2 h2-default">
-              Opponent
-            </h2>
+			<div id="action">
+				<div class="character-section">
+					<div  class="section-title">
+						Defender
+					</div>
 
-            </div>
-        </div>
+					<div id="defender">
+					</div>
+				</div>
+			</div>
 
-        <div class="row">
-          <h2 class="h2 h2-default">
-            Opponents you have defeated:  
-          </h2>
-        </div>
+		</div>
 
-        <div class="row">      
-          <div class="col-lg-3 defeated">
-            <img src="assets/images/darth-vader-empire-strikes-back.jpg">
-          </div>
+	</div>
 
-          <div class="col-lg-3 defeated">
-           <img src="assets/images/darth-vader-empire-strikes-back.jpg">
-          </div>
-
-          <div class="col-lg-3 defeated">
-            <img src="assets/images/darth-vader-empire-strikes-back.jpg">
-          </div>         
-
-          <div class="col-lg-3 reset">
-            <button class="btn btn-success">
-              Start Again
-            </button>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-<div class="clearfix"></div>
+	<div id="game-message">
+	</div>
 </body>
+	
 </html>
