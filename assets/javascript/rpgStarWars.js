@@ -80,7 +80,7 @@ $(document).ready(function() {
 		
 		for (var key in charObj) {
 			if (charObj.hasOwnProperty(key)) {
-				renderOne(charObj [key], areaRender, "");	
+				renderOne(charObj[key], areaRender, "");	
 			}
 		}
 	}

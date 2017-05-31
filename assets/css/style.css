@@ -2,16 +2,25 @@
 	color: blue;
 	font-size: 24px;
 	font-family: 'Share Tech Mono', arial, sans-serif;
+	width: 100%;
 }
 
 .section-title {
+	font-family: 'Share Tech Mono', monotype;
 	color: red;
 	font-size: 24px;
 }
 
-.characters-section {
+#defender {
+	width: 100%;
+	height: 175px;
+}
+
+#characters-section {
 	width: 100%;
 	display: block;
+	background-color: pink;
+	height: 200px;
 }
 .character {
 	width: 200px;
@@ -20,6 +29,26 @@
 	display: inline-block;
 	border: 1px solid green;
 	background-color: #fff;
+	margin: 10px;
+}
+
+.target-enemy {
+	background-color: black;
+}
+
+#seleced-character {
+	border: 3px solid green;
+}
+
+#selected-character-section {
+	width: 100%;
+	height: 200px;
+	background-color: yellow;
+}
+
+.enemy {
+	background-color: red;
+	color: white;
 }
 
 body {
@@ -29,4 +58,11 @@ body {
 img {
 	height: 100px;
 	margin: 0 auto;
+	width: 175px;
 }	
+
+#available-to-attack-section {
+	width: 100%;
+	height: 175px;
+	background-color: orange;
+}
