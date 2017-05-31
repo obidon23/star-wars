@@ -1,4 +1,4 @@
-$("document").ready(function() {
+$(document).ready(function() {
 	
 //VARIABLES ==========================================
 	var characters = {
@@ -141,7 +141,7 @@ var restartGame = function(inputEndGame) {
 	$("body").append(gameState);
 	$("body").append(restart);
 
-	};
+};
 
 
 // ===================================================================
