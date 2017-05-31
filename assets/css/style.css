@@ -1,7 +1,7 @@
 .main-section-title {
 	color: blue;
 	font-size: 24px;
-	font-family: "Share Tech Mono", arial, sans-serif;
+	font-family: 'Share Tech Mono', arial, sans-serif;
 }
 
 .section-title {
@@ -29,4 +29,4 @@ body {
 img {
 	height: 100px;
 	margin: 0 auto;
-}
+}	
