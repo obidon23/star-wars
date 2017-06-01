@@ -12,21 +12,15 @@
 }
 
 .characters-section {
-	height: 200px;
-	background-color: violet;
+	width: 100%;
 	font-family: 'helvetica', arial, sans-serif;
 	font-size: 16px;
 }
-#characters-section {
-	width: 100%;
-	background-color: pink;
-	height: 200px;
-}
+
 
 #fight-section {
 	width: 100%;
 	height: 50px;
-	background-color: turquoise;
 }
 .character {
 	width: 200px;
@@ -44,15 +38,12 @@
 	color: #fff;
 }
 
-#seleced-character {
-	border: 3px solid green;
+
+#selected-character-section .character {
+	margin: 10px;
 }
 
-#selected-character-section {
-	width: 100%;
-	height: 200px;
-	background-color: yellow;
-}
+
 
 .enemy {
 	background-color: red;
@@ -60,7 +51,8 @@
 }
 
 body {
-	background-color: lightblue;
+	background-image: url('../images/Petranaki_arena.jpg');
+	background-size: cover;
 }
 
 .character-image {
@@ -74,6 +66,16 @@ img {
 
 #available-to-attack-section {
 	width: 100%;
-	height: 200px;
-	background-color: orange;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+#game-message {
+	color: yellow;
+	font-family: helvetica, arial, sans-serif;
+	font-size: 20px;
 }
